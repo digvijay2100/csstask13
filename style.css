@@ -1,0 +1,99 @@
+body {
+    background-color: blue;
+    font-family: sans-serif;
+    
+   
+    height: 100vh;
+    width: 100vw;
+}
+
+#title {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+#main{
+    display: flex;
+    padding: 0% 7%;
+    
+    justify-content: space-around;
+}
+
+body>p {
+    color: grey;
+  
+    
+}
+
+.card {
+    background-color: white;
+    width: 25vw;
+    height: 80vh;
+    border-radius: 20px;  
+   
+    
+}
+
+.firstsection {
+    background-color: orangered;
+    color: white;
+    border-top-left-radius: 20px;
+    padding-top: 0.5rem;
+    text-align: center;
+    border-top-right-radius: 20px;
+
+}
+
+.firstsection>p {
+    font-size: small;
+    font-weight: 100;
+    margin-top: -1rem;
+    padding-bottom: 1.5rem;
+}
+
+.firstsection>h2 {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.secondSection {
+    
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 35vh;
+padding: 0.3rem;
+    color: black;
+}
+
+
+
+   
+    
+
+.secondSection>ul {
+     line-height: 1.5;
+    font-size: 20px;
+    font-weight: 400;
+    /*list-style-image: url("https://ibrahimhasnat.com/wp-content/uploads/2021/07/triangle.jpg"); */
+}
+
+.secondSection>button {
+    background-color: rgb(255, 183, 0);
+    color: white;
+    border: none;
+    display: flex;
+    padding:0.9rem;
+    width: 40%;
+    margin: auto;
+    border-radius: 30px;
+
+
+}
+#lightblue{
+    background-color:rgb(6, 160, 222);
+    
+}
+#blue{
+    background-color: blue;
+}
